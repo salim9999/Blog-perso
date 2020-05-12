@@ -1,0 +1,21 @@
+Administrateurs:S-1-5-32-544:544:
+Administrateurs Hyper-V:S-1-5-32-578:578:
+Duplicateurs:S-1-5-32-552:552:
+IIS_IUSRS:S-1-5-32-568:568:
+Invités:S-1-5-32-546:546:
+Lecteurs des journaux d’événements:S-1-5-32-573:573:
+Opérateurs d'assistance de contrôle d'accès:S-1-5-32-579:579:
+Opérateurs de chiffrement:S-1-5-32-569:569:
+Opérateurs de configuration réseau:S-1-5-32-556:556:
+Opérateurs de sauvegarde:S-1-5-32-551:551:
+Propriétaires d'appareils:S-1-5-32-583:583:
+System Managed Accounts Group:S-1-5-32-581:581:
+Utilisateurs:S-1-5-32-545:545:
+Utilisateurs avec pouvoir:S-1-5-32-547:547:
+Utilisateurs de gestion à distance:S-1-5-32-580:580:
+Utilisateurs de l’Analyseur de performances:S-1-5-32-558:558:
+Utilisateurs du Bureau à distance:S-1-5-32-555:555:
+Utilisateurs du journal de performances:S-1-5-32-559:559:
+Utilisateurs du modèle COM distribué:S-1-5-32-562:562:
+__vmware__:S-1-5-21-3894673853-4186935544-998464648-1002:1002:
+UsersGrp:S-1-5-32-513:513:

@@ -1,0 +1,6 @@
+C:/Users/SSASSE~1/Desktop/blog\040perso/slash/bin   /usr/bin    ntfs        binary,auto,user,posix=0           0   0
+C:/Users/SSASSE~1/Desktop/blog\040perso/slash/lib   /usr/lib    ntfs        binary,auto,user,posix=0           0   0
+C:/Users/SSASSE~1/Desktop/blog\040perso/slash       /           ntfs        override,binary,auto,user,posix=0  0   0
+none            /drives   cygdrive    binary,auto,user,posix=0   0   0
+C:/Users/SSASSE~1/Desktop/blog\040perso            /home/mobaxterm   ntfs    binary,auto,user,posix=0           0   0
+C:/Users/SSASSE~1/Desktop/blog\040perso            /home/SSassenou   ntfs    binary,auto,user,posix=0           0   0
