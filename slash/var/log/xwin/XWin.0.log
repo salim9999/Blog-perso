@@ -32,40 +32,40 @@ winInitializeScreenDefaults - native DPI x 96 y 96
 (==) Setting XLOCALEDIR path to XLOCALEDIR=C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\locale
 (==) Logfile set to "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\XWin.0.log"
 (==) Setting XKB path to C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb
-[713555.921] winDetectSupportedEngines - RemoteSession: no
-[713555.953] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
-[713555.968] winDetectSupportedEngines - Returning, supported engines 00000005
-[713555.968] winSetEngine - Multi Window or Rootless => ShadowGDI
-[713555.968] winScreenInit - Using Windows display depth of 32 bits per pixel
-[713555.968] winAllocateFBShadowGDI - Creating DIB with width: 1536 height: 864 depth: 32
-[713555.968] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
-[713555.968] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
-[713556.312] (II) IGLX: Loaded and initialized swrast
-[713556.312] (II) GLX: Initialized DRISWRAST GL provider for screen 0
-[713556.515] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" file successfully created.
-[713556.515] (II) [XKB]  Launching xkbcomp.exe with the following command:
-[713556.515] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
-[713556.515] (II) [XKB]  LaunchXkbComp(II) :  succeeded
-[713556.812] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204"
-[713556.812] winPointerWarpCursor - Discarding first warp: 768 432
-[713556.812] (--) 3 mouse buttons found
-[713556.812] (--) Setting autorepeat to delay=500, rate=31
-[713556.812] (--) Windows keyboard layout: "0000040C" (0000040c) "French", type 4
-[713556.812] (--) Found matching XKB configuration "French (Standard)"
-[713556.812] (--) Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
-[713556.812] Rules = "base" Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
-[713556.828] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" file successfully created.
-[713556.828] (II) [XKB]  Launching xkbcomp.exe with the following command:
-[713556.828] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
-[713556.828] (II) [XKB]  LaunchXkbComp(II) :  succeeded
-[713556.953] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204"
-[713556.953] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
-[713556.953] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
-[713556.953] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
-[713556.953] winProcEstablishConnection - winInitClipboard returned.
-[713556.953] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
-[713556,953] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
-[713556,953] Using Composite redirection
-[713556.968] OS maintains clipboard viewer chain: yes
-[713556.968] winClipboardProc - XOpenDisplay () returned and successfully opened the display.
-[713561.953] winWindowProc - WM_EXITSIZEMOVE
+[602278.234] winDetectSupportedEngines - RemoteSession: no
+[602278.328] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[602278.328] winDetectSupportedEngines - Returning, supported engines 00000005
+[602278.328] winSetEngine - Multi Window or Rootless => ShadowGDI
+[602278.328] winScreenInit - Using Windows display depth of 32 bits per pixel
+[602278.343] winAllocateFBShadowGDI - Creating DIB with width: 1536 height: 864 depth: 32
+[602278.343] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[602278.343] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[602278.375] (II) IGLX: Loaded and initialized swrast
+[602278.375] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[602278.421] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844" file successfully created.
+[602278.421] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[602278.421] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
+[602278.421] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[602278.546] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844"
+[602278.546] winPointerWarpCursor - Discarding first warp: 768 432
+[602278.546] (--) 8 mouse buttons found
+[602278.546] (--) Setting autorepeat to delay=500, rate=31
+[602278.546] (--) Windows keyboard layout: "0000040C" (0000040c) "French", type 4
+[602278.546] (--) Found matching XKB configuration "French (Standard)"
+[602278.546] (--) Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
+[602278.546] Rules = "base" Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
+[602278.546] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844" file successfully created.
+[602278.546] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[602278.546] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
+[602278.546] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[602278.640] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a19844"
+[602278.656] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[602278.656] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[602278.656] winProcEstablishConnection - winInitClipboard returned.
+[602278.656] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[602278.656] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[602278.656] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[602278,656] Using Composite redirection
+[602278.656] OS maintains clipboard viewer chain: yes
+[602278.656] winClipboardProc - XOpenDisplay () returned and successfully opened the display.
+[602282.718] winWindowProc - WM_EXITSIZEMOVE

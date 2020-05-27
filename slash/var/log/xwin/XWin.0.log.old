@@ -1,0 +1,71 @@
+Welcome to the XWin X Server
+Vendor: Moba/X
+Release: 1.20.4.0
+OS: Windows 10  [Windows NT 10.0 build 18363] (WoW64)
+Package: version  built 2019-03-16
+
+XWin was started with the following command line:
+
+
+ C:\Users\SSassenou\Desktop\blog perso\slash\bin\XWin_MobaX.exe 
+ -silent-dup-error -notrayicon -nolisten inet6 -hostintitle +bs 
+ -clipboard -nowgl -multiwindow -noreset :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1536 h 864
+winInitializeScreenDefaults - native DPI x 96 y 96
+(==) FontPath set to /usr/share/fonts/misc/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/misc/
+(==) FontPath set to /usr/share/fonts/TTF/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/TTF/
+(==) FontPath set to /usr/share/fonts/OTF/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/OTF/
+(==) FontPath set to /usr/share/fonts/Type1/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/Type1/
+(==) FontPath set to /usr/share/fonts/100dpi/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/100dpi/
+(==) FontPath set to /usr/share/fonts/75dpi/
+(==) FontPath set to C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/75dpi/
+(==) FontPath set to "C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/misc/,C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/TTF/,C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/OTF/,C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/Type1/,C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/100dpi/,C:\Users\SSassenou\Desktop\blog perso\slash/usr/share/fonts/75dpi/"
+(==) Setting XKEYSYMDB path to XKEYSYMDB=C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\XKeysymDB
+(==) Setting XERRORDB path to XERRORDB=C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\XErrorDB
+(==) Setting XLOCALEDIR path to XLOCALEDIR=C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\locale
+(==) Logfile set to "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\XWin.0.log"
+(==) Setting XKB path to C:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb
+[713555.921] winDetectSupportedEngines - RemoteSession: no
+[713555.953] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[713555.968] winDetectSupportedEngines - Returning, supported engines 00000005
+[713555.968] winSetEngine - Multi Window or Rootless => ShadowGDI
+[713555.968] winScreenInit - Using Windows display depth of 32 bits per pixel
+[713555.968] winAllocateFBShadowGDI - Creating DIB with width: 1536 height: 864 depth: 32
+[713555.968] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[713555.968] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[713556.312] (II) IGLX: Loaded and initialized swrast
+[713556.312] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[713556.515] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" file successfully created.
+[713556.515] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[713556.515] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
+[713556.515] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[713556.812] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204"
+[713556.812] winPointerWarpCursor - Discarding first warp: 768 432
+[713556.812] (--) 3 mouse buttons found
+[713556.812] (--) Setting autorepeat to delay=500, rate=31
+[713556.812] (--) Windows keyboard layout: "0000040C" (0000040c) "French", type 4
+[713556.812] (--) Found matching XKB configuration "French (Standard)"
+[713556.812] (--) Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
+[713556.812] Rules = "base" Model = "pc105" Layout = "fr" Variant = "none" Options = "none"
+[713556.828] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" file successfully created.
+[713556.828] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[713556.828] (II) [XKB]  "C:\Users\SSassenou\Desktop\blog perso\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\SSassenou\Desktop\blog perso\slash\usr\share\X11\xkb" -xkm "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\server-0.xkm"
+[713556.828] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[713556.953] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\SSassenou\Desktop\blog perso\slash\var\log\xwin\xkb_a15204"
+[713556.953] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[713556.953] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[713556.953] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[713556.953] winProcEstablishConnection - winInitClipboard returned.
+[713556.953] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[713556,953] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[713556,953] Using Composite redirection
+[713556.968] OS maintains clipboard viewer chain: yes
+[713556.968] winClipboardProc - XOpenDisplay () returned and successfully opened the display.
+[713561.953] winWindowProc - WM_EXITSIZEMOVE
