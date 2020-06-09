@@ -4,10 +4,7 @@ import Card from '../UI/Card';
 import Logo from '../Logo';
 import Navbar from '../Navbar';
 
-/**
- @author
-* @function Hero
-**/
+
 
 const Hero = (props) => {
   return(
